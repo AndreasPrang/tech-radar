@@ -9,7 +9,7 @@ var radar = new pv.Panel()
 radar.add(pv.Label)
   .left(40)
   .top(78)
-  .text("Zalando Tech Radar — 2016.04")
+  .text("BILD-IT — 2016.08")
   .font("40px sans-serif");
 
 // contact info
@@ -17,16 +17,16 @@ radar.add(pv.Label)
   .top(875)
   .right(40)
   .textAlign("right")
-  .text("Questions? Comments? Ideas?")
+  .text("")
   .font("28px sans-serif")
   .add(pv.Label)
     .top(910)
-    .text("tech-guild-technologists@zalando.de")
+    .text("")
     .textStyle("blue")
     .font("22px monospace")
   .add(pv.Label)
     .top(940)
-    .text("#guild-technologists")
+    .text("")
     .textStyle("blue")
     .font("22px monospace");
 
@@ -114,13 +114,17 @@ for (var i = 0; i < radar_data.length; i++) {
   }
 
   // re-order the items by radius, in order to logically group by ring
-  var itemsByStage = _.groupBy(radar_data[i].items, function(item) { return Math.floor(item.pc.r / 100) });
+  var itemsByStage = _.groupBy(radar_data[i].items, function(item) { return Math.floor(item.pc.r / 150) });
   var offsetIndex = 0;
   var midIndex = -1;
 
   for (var stageIndex in _(itemsByStage).keys()) {
     if (stageIndex > 0) {
-      offsetIndex = offsetIndex + itemsByStage[stageIndex-1].length + 1; 
+      if (typeof itemsByStage[stageIndex] == "undefined")
+      {
+        var i = 0;
+      }
+      	offsetIndex = offsetIndex + itemsByStage[stageIndex-1].length + 1; 
     }
     if ((stageIndex > 1) && (midIndex < 0)) {
       midIndex = offsetIndex;
