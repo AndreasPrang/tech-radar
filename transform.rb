@@ -16,9 +16,9 @@ class Layout
 
   OFFSET = {
     "Data Mgt" => 0,
-    "Techniques; Frameworks & Tools" => 95,
+    "Languages" => 95,
     "Platforms & Infrastructure" => 180, 
-    "Languages" => 270,
+    "Techniques; Frameworks & Tools" => 270,
   }
 
   def self.angles(start, step)

@@ -26,77 +26,61 @@ var radar_arcs = [
 //
 var radar_data = [
   { 
-    "quadrant": "Techniques; Frameworks & Tools",
+    "quadrant": "Languages",
     "left" : 45,
     "top" : 188,
     "color" : "#8FA227",
     "items" : [
   {
-    "name": "ExtJS",
+    "name": "HTML 5 / CSS",
     "pc": {
-      "r": 54,
-      "t": 135
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Chef",
-    "pc": {
-      "r": 65,
-      "t": 165
-    },
-    "movement": "c"
-  },
-  {
-    "name": "JSP",
-    "pc": {
-      "r": 78,
-      "t": 105
-    },
-    "movement": "c"
-  },
-  {
-    "name": "CKEditor",
-    "pc": {
-      "r": 55,
-      "t": 150
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Spring",
-    "pc": {
-      "r": 44,
+      "r": 36,
       "t": 120
     },
     "movement": "c"
   },
   {
-    "name": "CoreMedia",
+    "name": "JAVA",
     "pc": {
-      "r": 45,
-      "t": 142
+      "r": 58,
+      "t": 165
     },
     "movement": "c"
   },
   {
-    "name": "MAVEN",
+    "name": "JS",
     "pc": {
-      "r": 84,
+      "r": 89,
+      "t": 150
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Objective-C",
+    "pc": {
+      "r": 88,
+      "t": 105
+    },
+    "movement": "c"
+  },
+  {
+    "name": "ActionScript",
+    "pc": {
+      "r": 46,
+      "t": 135
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Ruby",
+    "pc": {
+      "r": 88,
       "t": 172
     },
     "movement": "c"
   },
   {
-    "name": "AWS - SNS",
-    "pc": {
-      "r": 43,
-      "t": 112
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Selenium",
+    "name": "Swift",
     "pc": {
       "r": 34,
       "t": 157
@@ -104,95 +88,31 @@ var radar_data = [
     "movement": "c"
   },
   {
-    "name": "Charles",
+    "name": "CoffeeScript",
     "pc": {
-      "r": 35,
+      "r": 88,
+      "t": 142
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Groove",
+    "pc": {
+      "r": 53,
       "t": 127
     },
     "movement": "c"
   },
   {
-    "name": "Metrics",
+    "name": "VCL (Varnish configuration Language)",
     "pc": {
-      "r": 82,
-      "t": 95
+      "r": 43,
+      "t": 112
     },
     "movement": "c"
   },
   {
-    "name": "Grunt",
-    "pc": {
-      "r": 61,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Webdriver (Chrome FireFox)",
-    "pc": {
-      "r": 68,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Jangaroo",
-    "pc": {
-      "r": 53,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Robolectric",
-    "pc": {
-      "r": 74,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Nexpose",
-    "pc": {
-      "r": 80,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "NodeJS",
-    "pc": {
-      "r": 34,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "ImageMagick",
-    "pc": {
-      "r": 58,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Gitflow",
-    "pc": {
-      "r": 38,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Cucumber",
-    "pc": {
-      "r": 36,
-      "t": 95
-    },
-    "movement": "c"
-  },
-  {
-    "name": "etcd",
+    "name": "TypeScript",
     "pc": {
       "r": 136,
       "t": 163
@@ -200,98 +120,10 @@ var radar_data = [
     "movement": "c"
   },
   {
-    "name": "Swagger",
-    "pc": {
-      "r": 142,
-      "t": 103
-    },
-    "movement": "c"
-  },
-  {
-    "name": "WebComponents",
-    "pc": {
-      "r": 147,
-      "t": 151
-    },
-    "movement": "c"
-  },
-  {
-    "name": "ReactJS",
+    "name": "Kotlin",
     "pc": {
       "r": 163,
-      "t": 175
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Immutable.js",
-    "pc": {
-      "r": 174,
-      "t": 115
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Ansible",
-    "pc": {
-      "r": 174,
       "t": 139
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Redux",
-    "pc": {
-      "r": 179,
-      "t": 127
-    },
-    "movement": "c"
-  },
-  {
-    "name": "SysDig",
-    "pc": {
-      "r": 190,
-      "t": 145
-    },
-    "movement": "c"
-  },
-  {
-    "name": "HashiCorp Vault",
-    "pc": {
-      "r": 190,
-      "t": 133
-    },
-    "movement": "c"
-  },
-  {
-    "name": "ES6",
-    "pc": {
-      "r": 226,
-      "t": 121
-    },
-    "movement": "c"
-  },
-  {
-    "name": "GraphQL",
-    "pc": {
-      "r": 290,
-      "t": 141
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Vert.x",
-    "pc": {
-      "r": 350,
-      "t": 179
-    },
-    "movement": "c"
-  },
-  {
-    "name": "AngularJS 2",
-    "pc": {
-      "r": 350,
-      "t": 171
     },
     "movement": "c"
   }
@@ -306,64 +138,64 @@ var radar_data = [
   {
     "name": "JIRA / Confluence",
     "pc": {
-      "r": 76,
-      "t": 70
+      "r": 90,
+      "t": 25
     },
     "movement": "c"
   },
   {
     "name": "Oracle",
     "pc": {
-      "r": 79,
-      "t": 55
+      "r": 87,
+      "t": 70
     },
     "movement": "c"
   },
   {
     "name": "Solr",
     "pc": {
-      "r": 69,
-      "t": 25
+      "r": 49,
+      "t": 40
     },
     "movement": "c"
   },
   {
     "name": "ElasticSearch",
     "pc": {
-      "r": 36,
-      "t": 40
+      "r": 63,
+      "t": 10
     },
     "movement": "c"
   },
   {
     "name": "Splunk",
     "pc": {
-      "r": 61,
-      "t": 10
+      "r": 57,
+      "t": 55
     },
     "movement": "c"
   },
   {
     "name": "MongoDB",
     "pc": {
-      "r": 32,
-      "t": 62
+      "r": 50,
+      "t": 77
     },
     "movement": "c"
   },
   {
     "name": "PostgreSQL",
     "pc": {
-      "r": 83,
-      "t": 77
+      "r": 73,
+      "t": 47
     },
     "movement": "c"
   },
   {
     "name": "Graphite",
     "pc": {
-      "r": 71,
-      "t": 17
+      "r": 43,
+      "t": 62
     },
     "movement": "c"
   },
@@ -371,7 +203,7 @@ var radar_data = [
     "name": "Kafka",
     "pc": {
       "r": 234,
-      "t": 56
+      "t": 36
     },
     "movement": "c"
   },
@@ -379,7 +211,7 @@ var radar_data = [
     "name": "Neo4j",
     "pc": {
       "r": 342,
-      "t": 44
+      "t": 20
     },
     "movement": "c"
   }
@@ -394,23 +226,23 @@ var radar_data = [
   {
     "name": "Docker",
     "pc": {
-      "r": 36,
-      "t": 250
+      "r": 46,
+      "t": 235
     },
     "movement": "c"
   },
   {
     "name": "TomCat",
     "pc": {
-      "r": 79,
-      "t": 235
+      "r": 74,
+      "t": 205
     },
     "movement": "c"
   },
   {
     "name": "ServerSpec",
     "pc": {
-      "r": 65,
+      "r": 79,
       "t": 220
     },
     "movement": "c"
@@ -418,15 +250,15 @@ var radar_data = [
   {
     "name": "Jenkins as a Deployment Pipeline",
     "pc": {
-      "r": 49,
-      "t": 205
+      "r": 62,
+      "t": 250
     },
     "movement": "c"
   },
   {
     "name": "Jenkins",
     "pc": {
-      "r": 78,
+      "r": 59,
       "t": 190
     },
     "movement": "c"
@@ -434,24 +266,24 @@ var radar_data = [
   {
     "name": "macOS Build Server",
     "pc": {
-      "r": 86,
-      "t": 212
+      "r": 87,
+      "t": 197
     },
     "movement": "c"
   },
   {
     "name": "AWS - EC2",
     "pc": {
-      "r": 33,
-      "t": 257
+      "r": 64,
+      "t": 227
     },
     "movement": "c"
   },
   {
     "name": "AWS - Lambda",
     "pc": {
-      "r": 73,
-      "t": 197
+      "r": 40,
+      "t": 212
     },
     "movement": "c"
   },
@@ -459,7 +291,7 @@ var radar_data = [
     "name": "Kubernetes",
     "pc": {
       "r": 136,
-      "t": 200
+      "t": 224
     },
     "movement": "c"
   },
@@ -467,7 +299,7 @@ var radar_data = [
     "name": "HSTS",
     "pc": {
       "r": 190,
-      "t": 260
+      "t": 188
     },
     "movement": "c"
   },
@@ -475,7 +307,7 @@ var radar_data = [
     "name": "HTTP2",
     "pc": {
       "r": 190,
-      "t": 248
+      "t": 260
     },
     "movement": "c"
   },
@@ -483,7 +315,7 @@ var radar_data = [
     "name": "Consul",
     "pc": {
       "r": 190,
-      "t": 236
+      "t": 248
     },
     "movement": "c"
   },
@@ -491,7 +323,7 @@ var radar_data = [
     "name": "QA in Production",
     "pc": {
       "r": 290,
-      "t": 246
+      "t": 196
     },
     "movement": "c"
   },
@@ -499,103 +331,295 @@ var radar_data = [
     "name": "Event Storing ???",
     "pc": {
       "r": 350,
-      "t": 200
+      "t": 264
     },
-    "movement": "c"
+    "movement": "t"
   }
 ]
   },
   { 
-    "quadrant": "Languages",
+    "quadrant": "Techniques; Frameworks & Tools",
     "color" : "#B70062",
     "left"  : (w-300+30),
     "top" :   (h/2 + 38),
     "items" : [
   {
-    "name": "JAVA",
+    "name": "jQuery",
     "pc": {
-      "r": 54,
-      "t": 280
-    },
-    "movement": "c"
-  },
-  {
-    "name": "JS",
-    "pc": {
-      "r": 58,
-      "t": 295
-    },
-    "movement": "c"
-  },
-  {
-    "name": "ActionScript",
-    "pc": {
-      "r": 39,
-      "t": 340
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Objective-C",
-    "pc": {
-      "r": 51,
-      "t": 325
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Ruby",
-    "pc": {
-      "r": 34,
+      "r": 31,
       "t": 310
     },
     "movement": "c"
   },
   {
-    "name": "Swift",
+    "name": "JSP",
     "pc": {
-      "r": 86,
+      "r": 32,
+      "t": 340
+    },
+    "movement": "c"
+  },
+  {
+    "name": "SASS",
+    "pc": {
+      "r": 49,
+      "t": 295
+    },
+    "movement": "c"
+  },
+  {
+    "name": "CKEditor",
+    "pc": {
+      "r": 87,
+      "t": 325
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Chef",
+    "pc": {
+      "r": 76,
+      "t": 280
+    },
+    "movement": "c"
+  },
+  {
+    "name": "MAVEN",
+    "pc": {
+      "r": 35,
       "t": 332
     },
     "movement": "c"
   },
   {
-    "name": "CoffeeScript",
+    "name": "Spring",
     "pc": {
-      "r": 89,
+      "r": 38,
+      "t": 302
+    },
+    "movement": "c"
+  },
+  {
+    "name": "AWS - SNS",
+    "pc": {
+      "r": 64,
       "t": 347
     },
     "movement": "c"
   },
   {
-    "name": "Groove",
+    "name": "CoreMedia",
     "pc": {
-      "r": 71,
-      "t": 302
-    },
-    "movement": "c"
-  },
-  {
-    "name": "VCL (Varnish configuration Language)",
-    "pc": {
-      "r": 34,
+      "r": 57,
       "t": 317
     },
     "movement": "c"
   },
   {
-    "name": "TypeScript",
+    "name": "Charles",
+    "pc": {
+      "r": 63,
+      "t": 287
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Selenium",
+    "pc": {
+      "r": 57,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Metrics",
+    "pc": {
+      "r": 76,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Handlebars",
+    "pc": {
+      "r": 50,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Webdriver (Chrome FireFox)",
+    "pc": {
+      "r": 48,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Grunt",
+    "pc": {
+      "r": 30,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Robolectric",
+    "pc": {
+      "r": 90,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Jangaroo",
+    "pc": {
+      "r": 48,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "ImageMagick",
+    "pc": {
+      "r": 49,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Gitflow",
+    "pc": {
+      "r": 54,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "NodeJS",
+    "pc": {
+      "r": 86,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Nexpose",
+    "pc": {
+      "r": 74,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Cucumber",
+    "pc": {
+      "r": 40,
+      "t": 270
+    },
+    "movement": "c"
+  },
+  {
+    "name": "etcd",
     "pc": {
       "r": 136,
+      "t": 314
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Swagger",
+    "pc": {
+      "r": 142,
+      "t": 326
+    },
+    "movement": "c"
+  },
+  {
+    "name": "WebComponents",
+    "pc": {
+      "r": 147,
       "t": 290
     },
     "movement": "c"
   },
   {
-    "name": "Kotlin",
+    "name": "ReactJS",
     "pc": {
       "r": 163,
+      "t": 350
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Ansible",
+    "pc": {
+      "r": 174,
+      "t": 278
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Immutable.js",
+    "pc": {
+      "r": 174,
       "t": 302
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Redux",
+    "pc": {
+      "r": 179,
+      "t": 338
+    },
+    "movement": "c"
+  },
+  {
+    "name": "SysDig",
+    "pc": {
+      "r": 190,
+      "t": 284
+    },
+    "movement": "c"
+  },
+  {
+    "name": "HashiCorp Vault",
+    "pc": {
+      "r": 190,
+      "t": 308
+    },
+    "movement": "c"
+  },
+  {
+    "name": "ES6",
+    "pc": {
+      "r": 226,
+      "t": 276
+    },
+    "movement": "c"
+  },
+  {
+    "name": "GraphQL",
+    "pc": {
+      "r": 290,
+      "t": 306
+    },
+    "movement": "c"
+  },
+  {
+    "name": "AngularJS 2",
+    "pc": {
+      "r": 350,
+      "t": 306
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Vert.x",
+    "pc": {
+      "r": 350,
+      "t": 314
     },
     "movement": "c"
   }
